@@ -1,0 +1,53 @@
+{
+  "name": "8aces.org",
+  "version": "0.23.5",
+  "private": true,
+  "author": "bwb dao",
+  "description": "8aces.org representational page",
+  "license": "AGPL-3.0",
+  "homepage": "https://8aces.org",
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs",
+    "build": "NODE_ENV=production magic build",
+    "devbuild": "magic build",
+    "prod": "NODE_ENV=production magic build serve",
+    "dev": "magic dev",
+    "publish": "magic publish",
+    "connect": "magic connect"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8aces/8aces.org.git"
+  },
+  "bugs": {
+    "url": "https://github.com/8aces/8aces.org/issues"
+  },
+  "dependencies": {
+    "@magic/core": "0.0.64"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.7",
+    "@magic/test": "0.1.39"
+  },
+  "keywords": [
+    "magic",
+    "example",
+    "minimal"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
