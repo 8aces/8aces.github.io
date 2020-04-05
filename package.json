@@ -33,7 +33,7 @@
     "url": "https://github.com/8aces/8aces.org/issues"
   },
   "dependencies": {
-    "@magic/core": "0.0.64"
+    "@magic/core": "0.0.65"
   },
   "devDependencies": {
     "@magic/format": "0.0.7",
