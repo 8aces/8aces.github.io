@@ -22,7 +22,7 @@ export const style = vars => ({
   width: '50vw',
   position: 'fixed',
   top: '28vh',
-  margin: '0 0 0 1vh',
+  margin: '0 0 0 1.5vh',
 
   // '.Word': {
     // lineHeight: 1,
