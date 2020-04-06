@@ -13,6 +13,6 @@ export const style = vars => ({
     top: '13vh',
     height: '15vh',
     left: '50vw',
-    margin: '0 0 0 -26vh',
+    margin: '0 0 0 -26.5vh',
   },
 })

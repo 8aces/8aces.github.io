@@ -17,10 +17,10 @@ export const View = () => div({ class: 'Branding' }, [span({ class:'eight' }, 'e
   //])
 
 export const style = vars => ({
-  left: '37vw',
+  left: '50vw',
   position: 'fixed',
   top: '28vh',
-  margin: '0 0 0 1.5vh',
+  margin: '0 0 0 -11vh',
   letterSpacing: '.2em',
   fontSize: '1.5em',
 
