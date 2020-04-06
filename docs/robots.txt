@@ -1,0 +1,3 @@
+user-agent: *
+allow: /
+sitemap: https://8aces.org/sitemap.xml
