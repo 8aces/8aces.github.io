@@ -1,4 +1,4 @@
-export const View = () => div({ class: 'Branding' }, 'eight aces')
+export const View = () => div({ class: 'Branding' }, [span({ class:'eight' }, 'eight'), span({ class: 'aces' }, 'aces')])
   //[
     // div({ class: 'Eight' }, [
       // p({ class: 'Word' }, [b('e'), div('thical')]),
@@ -17,12 +17,16 @@ export const View = () => div({ class: 'Branding' }, 'eight aces')
   //])
 
 export const style = vars => ({
-  left: '50vw',
-  height: '100vh',
-  width: '50vw',
+  left: '37vw',
   position: 'fixed',
   top: '28vh',
   margin: '0 0 0 1.5vh',
+  letterSpacing: '.2em',
+  fontSize: '1.5em',
+
+  '.aces': {
+    margin: '0 0 0 1.5vh',
+  },
 
   // '.Word': {
     // lineHeight: 1,

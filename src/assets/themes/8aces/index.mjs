@@ -3,7 +3,10 @@ export const vars = {
     dark: '#212121',
   },
 
-  neutral: '#008800',
+  primary: {
+    dark: '#008800',
+    light: '#8dd208',
+  },
 }
 
 export default (v = {}) => {
@@ -16,12 +19,12 @@ export default (v = {}) => {
     body: {
       fontFamily:
         '"Ubuntu Narrow",Ubuntu,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif',
-      color: v.neutral,
+      color: v.primary.dark,
       fontSize: '20px',
     },
 
     a: {
-      color: v.neutral,
+      color: v.primary.dark,
 
       '&:hover': {
         color: v.text.dark,
@@ -40,12 +43,12 @@ export default (v = {}) => {
 
     '.Credits': {
       margin: '0.5em',
-      color: v.neutral,
+      color: v.primary.dark,
       fontSize: '0.7em',
       textAlign: 'right',
 
       a: {
-        color: v.neutral,
+        color: v.primary.dark,
 
         '&:hover': {
           color: v.text.dark,

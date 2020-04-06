@@ -6,7 +6,7 @@ export const style = vars => ({
   position: 'fixed',
   top: 0,
   left: 0,
-  backgroundColor: vars.neutral,
+  backgroundColor: vars.primary.light,
 
   img: {
     position: 'absolute',
