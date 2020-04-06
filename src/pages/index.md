@@ -1,3 +1,2 @@
 <Logo></Logo>
 
-<Branding></Branding>

@@ -4,9 +4,13 @@ export const vars = {
   },
 
   primary: {
-    dark: '#008800',
-    light: '#8dd208',
+    dark: '#006150',
+    light: '#fff', //'#48ff28',
   },
+
+  headerWidth: '40vw',
+  contentWidth: '60vw',
+  logoWidth: '23vw',
 }
 
 export default (v = {}) => {
@@ -21,6 +25,8 @@ export default (v = {}) => {
         '"Ubuntu Narrow",Ubuntu,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif',
       color: v.primary.dark,
       fontSize: '20px',
+      fontWeight: '300',
+      lineHeight: 1,
     },
 
     a: {
@@ -37,8 +43,15 @@ export default (v = {}) => {
       right: 0,
       lineHeight: 1,
       padding: 0,
-      width: 'auto',
-      width: '50%',
+      maxWidth: vars.contentWidth,
+    },
+
+    '.Spread': {
+      top: '35vw',
+      left: '40vw',
+      position: 'absolute',
+      fontSize: '2em',
+      textTransform: 'uppercase',
     },
 
     '.Credits': {
