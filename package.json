@@ -33,11 +33,11 @@
     "url": "https://github.com/8aces/8aces.org/issues"
   },
   "dependencies": {
-    "@magic/core": "0.0.65"
+    "@magic/core": "0.0.70"
   },
   "devDependencies": {
-    "@magic/format": "0.0.7",
-    "@magic/test": "0.1.39"
+    "@magic/format": "0.0.10",
+    "@magic/test": "0.1.44"
   },
   "keywords": [
     "magic",
